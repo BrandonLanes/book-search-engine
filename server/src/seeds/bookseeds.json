@@ -1,0 +1,122 @@
+[
+    {
+      "id": "hyrule-historia",
+      "volumeInfo": {
+        "title": "Hyrule Historia",
+        "authors": ["Nintendo", "Shigeru Miyamoto"],
+        "description": "A comprehensive guide to the rich history, characters, and lore of the Legend of Zelda series, including exclusive artwork and behind-the-scenes details.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/hyrule-historia-small.jpg",
+          "thumbnail": "https://example.com/hyrule-historia.jpg"
+        }
+      }
+    },
+    {
+      "id": "creating-a-champion",
+      "volumeInfo": {
+        "title": "Creating a Champion",
+        "authors": ["Nintendo"],
+        "description": "Explore the making of The Legend of Zelda: Breath of the Wild, with developer interviews, concept art, and in-depth explorations of the game's expansive world.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/creating-a-champion-small.jpg",
+          "thumbnail": "https://example.com/creating-a-champion.jpg"
+        }
+      }
+    },
+    {
+      "id": "zelda-encyclopedia",
+      "volumeInfo": {
+        "title": "The Legend of Zelda Encyclopedia",
+        "authors": ["Nintendo"],
+        "description": "A definitive reference guide to the world of Zelda, covering games, characters, and iconic locations from the series' rich history.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/zelda-encyclopedia-small.jpg",
+          "thumbnail": "https://example.com/zelda-encyclopedia.jpg"
+        }
+      }
+    },
+    {
+      "id": "art-and-artifacts",
+      "volumeInfo": {
+        "title": "Art & Artifacts",
+        "authors": ["Nintendo"],
+        "description": "A stunning collection of artwork from across The Legend of Zelda series, showcasing the visual evolution of the franchise.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/art-and-artifacts-small.jpg",
+          "thumbnail": "https://example.com/art-and-artifacts.jpg"
+        }
+      }
+    },
+    {
+      "id": "ocarina-of-time",
+      "volumeInfo": {
+        "title": "The Legend of Zelda: Ocarina of Time - Official Guide",
+        "authors": ["Nintendo", "Prima Games"],
+        "description": "The official strategy guide for Ocarina of Time, packed with tips, tricks, and maps to help you on your adventure.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/ocarina-of-time-small.jpg",
+          "thumbnail": "https://example.com/ocarina-of-time.jpg"
+        }
+      }
+    },
+    {
+      "id": "twilight-princess",
+      "volumeInfo": {
+        "title": "The Legend of Zelda: Twilight Princess Manga Vol. 1",
+        "authors": ["Akira Himekawa"],
+        "description": "A manga adaptation of the beloved game Twilight Princess, following Link's transformation and battle to save Hyrule.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/twilight-princess-small.jpg",
+          "thumbnail": "https://example.com/twilight-princess.jpg"
+        }
+      }
+    },
+    {
+      "id": "skyward-sword",
+      "volumeInfo": {
+        "title": "The Legend of Zelda: Skyward Sword Strategy Guide",
+        "authors": ["Nintendo", "Prima Games"],
+        "description": "An in-depth guide to Skyward Sword, offering walkthroughs, item locations, and tips to master the game.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/skyward-sword-small.jpg",
+          "thumbnail": "https://example.com/skyward-sword.jpg"
+        }
+      }
+    },
+    {
+      "id": "majora-mask",
+      "volumeInfo": {
+        "title": "The Legend of Zelda: Majora's Mask - Official Guide",
+        "authors": ["Nintendo", "Prima Games"],
+        "description": "The official companion to Majora's Mask, featuring strategies to navigate its intricate puzzles and time mechanics.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/majora-mask-small.jpg",
+          "thumbnail": "https://example.com/majora-mask.jpg"
+        }
+      }
+    },
+    {
+      "id": "link-to-the-past",
+      "volumeInfo": {
+        "title": "The Legend of Zelda: A Link to the Past",
+        "authors": ["Shotaro Ishinomori"],
+        "description": "A comic adaptation of A Link to the Past, capturing the heart of Link's heroic journey through Hyrule.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/link-to-the-past-small.jpg",
+          "thumbnail": "https://example.com/link-to-the-past.jpg"
+        }
+      }
+    },
+    {
+      "id": "breath-of-the-wild",
+      "volumeInfo": {
+        "title": "The Legend of Zelda: Breath of the Wild - Master Edition Guide",
+        "authors": ["Nintendo", "Piggyback"],
+        "description": "A detailed guide to Breath of the Wild, including secrets, collectibles, and tips for every adventurer.",
+        "imageLinks": {
+          "smallThumbnail": "https://example.com/breath-of-the-wild-small.jpg",
+          "thumbnail": "https://example.com/breath-of-the-wild.jpg"
+        }
+      }
+    }
+  ]

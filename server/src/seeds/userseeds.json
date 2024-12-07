@@ -1,0 +1,52 @@
+[
+    {
+        "username": "HyruleHero",
+        "email": "link@hyrule.com",
+        "password": "masterSword123"
+    },
+    {
+        "username": "TriforceKeeper",
+        "email": "triforce@legend.com",
+        "password": "couragePowerWisdom"
+    },
+    {
+        "username": "SheikahSage",
+        "email": "sheikah@clan.com",
+        "password": "hiddenWisdom"
+    },
+    {
+        "username": "GanonSlayer",
+        "email": "ganon@slayer.com",
+        "password": "banishEvil2024"
+    },
+    {
+        "username": "ZoraGuardian",
+        "email": "zora@domain.com",
+        "password": "swimFast321"
+    },
+    {
+        "username": "GoronChampion",
+        "email": "goron@strong.com",
+        "password": "rollBoulder789"
+    },
+    {
+        "username": "FairyGuide",
+        "email": "navi@heylisten.com",
+        "password": "sparkleLight!"
+    },
+    {
+        "username": "TwilightPrincess",
+        "email": "midna@twilight.com",
+        "password": "shadowRealm456"
+    },
+    {
+        "username": "SkywardKnight",
+        "email": "knight@skyloft.com",
+        "password": "loftwingFly7"
+    },
+    {
+        "username": "KokiriChild",
+        "email": "kokiri@forest.com",
+        "password": "dekuShield333"
+    }
+]

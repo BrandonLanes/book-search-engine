@@ -24,7 +24,9 @@ const resolvers = {
   Query: {
     // Query to get the authenticated user's information
     // The 'me' query relies on the context to check if the user is authenticated
+    // Tested and working!
     getSingleUser: async (_parent: any, _args: any, context: any) => {
+      console.log(context);
       // If the user is authenticated, find and return the user's information along with their thoughts
       if (context.user) {
         return User.findOne({ _id: context.user._id }).populate('savedBooks');
@@ -34,17 +36,19 @@ const resolvers = {
     },
   },
   Mutation: {
-    createUser: async (_parent: any, { input }: AddUserArgs) => {
+    // Tested and working!
+    createUser: async (_parent: any, args: AddUserArgs) => {
       // Create a new user with the provided username, email, and password
-      const user = await User.create({ ...input });
-    
+      const user = await User.create(args);
+      console.log(user);
       // Sign a token with the user's information
       const token = signToken(user.username, user.email, user._id);
-    
+      console.log(token);
       // Return the token and the user
       return { token, user };
     },
     
+    // Tested and working!
     login: async (_parent: any, { email, password }: LoginUserArgs) => {
       // Find a user with the provided email
       const user = await User.findOne({ email });
@@ -68,9 +72,10 @@ const resolvers = {
       // Return the token and the user
       return { token, user };
     },
+    // Tested and working!
     saveBook: async (_parent: any, { input }: SaveBookArgs, context: any) => {
       if (context.user) {
-
+        console.log(input);
       const updatedUser = 
         await User.findOneAndUpdate(
           { _id: context.user._id },
@@ -86,7 +91,8 @@ const resolvers = {
       const updatedUser =
         await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $pull: { savedBooks: bookId } }
+          { $pull: { savedBooks: bookId } },
+          {new: true}
         );
 
         return updatedUser;
